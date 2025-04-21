@@ -1,6 +1,7 @@
 // src/screens/EliminationScreen.js
 import React, { useState } from "react";
-import { View, Text, Button, StyleSheet, ScrollView, CheckBox } from "react-native";
+import { View, Text, Button, StyleSheet, ScrollView } from "react-native";
+import CheckBox from '@react-native-community/checkbox';
 
 const EliminationScreen = ({ route, navigation }) => {
   const { players, sessionId, pesos } = route.params;
